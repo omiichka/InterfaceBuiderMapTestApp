@@ -9,7 +9,4 @@ target 'InterfaceBuiderMapTestApp' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'GoogleMaps'
-  pod 'GooglePlaces'
-  
-
 end

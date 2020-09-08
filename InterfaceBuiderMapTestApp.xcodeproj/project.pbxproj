@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B266DED25043F9D00D5425A /* CostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B266DEC25043F9D00D5425A /* CostView.swift */; };
 		3B4BD23A25064BBB0000C904 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BD23925064BBB0000C904 /* UIView.swift */; };
 		3B4BD23C250685D00000C904 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BD23B250685D00000C904 /* MapController.swift */; };
+		3B4BD23E2506F1490000C904 /* mapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B4BD23D2506F1480000C904 /* mapStyle.json */; };
+		3B4BD2402506F2FA0000C904 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BD23F2506F2FA0000C904 /* MapPresenter.swift */; };
+		3B4BD242250708C60000C904 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BD241250708C60000C904 /* UIViewController.swift */; };
+		3B4BD24625070DEA0000C904 /* FCsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BD24525070DEA0000C904 /* FCsController.swift */; };
+		3B4BD24825079B950000C904 /* EmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BD24725079B950000C904 /* EmailController.swift */; };
+		3B4BD24A25079BDF0000C904 /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BD24925079BDF0000C904 /* PasswordController.swift */; };
+		3B4BD2512507A25A0000C904 /* AutorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BD2502507A25A0000C904 /* AutorizationViewModel.swift */; };
+		3B4BD2532507A5DF0000C904 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BD2522507A5DF0000C904 /* String.swift */; };
 		3B71F12624FD0EC5003454C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71F12524FD0EC5003454C0 /* AppDelegate.swift */; };
 		3B71F12824FD0EC5003454C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71F12724FD0EC5003454C0 /* SceneDelegate.swift */; };
 		3B71F12D24FD0EC5003454C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B71F12B24FD0EC5003454C0 /* Main.storyboard */; };
 		3B71F12F24FD0EC9003454C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B71F12E24FD0EC9003454C0 /* Assets.xcassets */; };
 		3B71F13224FD0EC9003454C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B71F13024FD0EC9003454C0 /* LaunchScreen.storyboard */; };
 		3B8F429724FD945F003BE419 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F429624FD945F003BE419 /* TextField.swift */; };
+		3BB64E272508152C00E8B77C /* AutorizationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB64E262508152C00E8B77C /* AutorizationPresenter.swift */; };
 		D30CA3D82500A00B24CD786E /* Pods_InterfaceBuiderMapTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9113A3D1DBB179CF5BDFD66 /* Pods_InterfaceBuiderMapTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C7535FBBE1C2090F904482A /* Pods-InterfaceBuiderMapTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterfaceBuiderMapTestApp.debug.xcconfig"; path = "Target Support Files/Pods-InterfaceBuiderMapTestApp/Pods-InterfaceBuiderMapTestApp.debug.xcconfig"; sourceTree = "<group>"; };
-		3B266DEC25043F9D00D5425A /* CostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostView.swift; sourceTree = "<group>"; };
 		3B4BD23925064BBB0000C904 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		3B4BD23B250685D00000C904 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		3B4BD23D2506F1480000C904 /* mapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mapStyle.json; sourceTree = "<group>"; };
+		3B4BD23F2506F2FA0000C904 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		3B4BD241250708C60000C904 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		3B4BD24525070DEA0000C904 /* FCsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCsController.swift; sourceTree = "<group>"; };
+		3B4BD24725079B950000C904 /* EmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailController.swift; sourceTree = "<group>"; };
+		3B4BD24925079BDF0000C904 /* PasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
+		3B4BD2502507A25A0000C904 /* AutorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorizationViewModel.swift; sourceTree = "<group>"; };
+		3B4BD2522507A5DF0000C904 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		3B71F12224FD0EC5003454C0 /* InterfaceBuiderMapTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterfaceBuiderMapTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B71F12524FD0EC5003454C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B71F12724FD0EC5003454C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +47,7 @@
 		3B71F13124FD0EC9003454C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B71F13324FD0EC9003454C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B8F429624FD945F003BE419 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		3BB64E262508152C00E8B77C /* AutorizationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorizationPresenter.swift; sourceTree = "<group>"; };
 		CB27D0DE72FBD2BCF3995BA3 /* Pods-InterfaceBuiderMapTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterfaceBuiderMapTestApp.release.xcconfig"; path = "Target Support Files/Pods-InterfaceBuiderMapTestApp/Pods-InterfaceBuiderMapTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		D9113A3D1DBB179CF5BDFD66 /* Pods_InterfaceBuiderMapTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterfaceBuiderMapTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,6 +64,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4BD24B2507A10F0000C904 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B4BD24925079BDF0000C904 /* PasswordController.swift */,
+				3B4BD24725079B950000C904 /* EmailController.swift */,
+				3B4BD24525070DEA0000C904 /* FCsController.swift */,
+				3B4BD23B250685D00000C904 /* MapController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3B4BD24C2507A12C0000C904 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B4BD23925064BBB0000C904 /* UIView.swift */,
+				3B4BD241250708C60000C904 /* UIViewController.swift */,
+				3B4BD2522507A5DF0000C904 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3B4BD24D2507A16A0000C904 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B4BD23D2506F1480000C904 /* mapStyle.json */,
+				3B71F12E24FD0EC9003454C0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B4BD24E2507A1A60000C904 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F429624FD945F003BE419 /* TextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3B4BD24F2507A2340000C904 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				3B4BD23F2506F2FA0000C904 /* MapPresenter.swift */,
+				3B4BD2502507A25A0000C904 /* AutorizationViewModel.swift */,
+				3BB64E262508152C00E8B77C /* AutorizationPresenter.swift */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
 		3B71F11924FD0EC4003454C0 = {
 			isa = PBXGroup;
 			children = (
@@ -69,14 +133,14 @@
 		3B71F12424FD0EC5003454C0 /* InterfaceBuiderMapTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				3B4BD24F2507A2340000C904 /* BusinessLogic */,
+				3B4BD24E2507A1A60000C904 /* Components */,
+				3B4BD24D2507A16A0000C904 /* Resources */,
+				3B4BD24C2507A12C0000C904 /* Extensions */,
+				3B4BD24B2507A10F0000C904 /* Controllers */,
 				3B71F12524FD0EC5003454C0 /* AppDelegate.swift */,
 				3B71F12724FD0EC5003454C0 /* SceneDelegate.swift */,
-				3B4BD23925064BBB0000C904 /* UIView.swift */,
-				3B266DEC25043F9D00D5425A /* CostView.swift */,
-				3B8F429624FD945F003BE419 /* TextField.swift */,
-				3B4BD23B250685D00000C904 /* MapController.swift */,
 				3B71F12B24FD0EC5003454C0 /* Main.storyboard */,
-				3B71F12E24FD0EC9003454C0 /* Assets.xcassets */,
 				3B71F13024FD0EC9003454C0 /* LaunchScreen.storyboard */,
 				3B71F13324FD0EC9003454C0 /* Info.plist */,
 			);
@@ -161,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4BD23E2506F1490000C904 /* mapStyle.json in Resources */,
 				3B71F13224FD0EC9003454C0 /* LaunchScreen.storyboard in Resources */,
 				3B71F12F24FD0EC9003454C0 /* Assets.xcassets in Resources */,
 				3B71F12D24FD0EC5003454C0 /* Main.storyboard in Resources */,
@@ -233,12 +298,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4BD242250708C60000C904 /* UIViewController.swift in Sources */,
 				3B71F12624FD0EC5003454C0 /* AppDelegate.swift in Sources */,
 				3B71F12824FD0EC5003454C0 /* SceneDelegate.swift in Sources */,
+				3B4BD2512507A25A0000C904 /* AutorizationViewModel.swift in Sources */,
 				3B8F429724FD945F003BE419 /* TextField.swift in Sources */,
 				3B4BD23A25064BBB0000C904 /* UIView.swift in Sources */,
+				3B4BD2532507A5DF0000C904 /* String.swift in Sources */,
+				3B4BD24825079B950000C904 /* EmailController.swift in Sources */,
+				3BB64E272508152C00E8B77C /* AutorizationPresenter.swift in Sources */,
 				3B4BD23C250685D00000C904 /* MapController.swift in Sources */,
-				3B266DED25043F9D00D5425A /* CostView.swift in Sources */,
+				3B4BD24625070DEA0000C904 /* FCsController.swift in Sources */,
+				3B4BD24A25079BDF0000C904 /* PasswordController.swift in Sources */,
+				3B4BD2402506F2FA0000C904 /* MapPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.antybred.InterfaceBuiderMapTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.antybred.InterfaceBuiderMapTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
