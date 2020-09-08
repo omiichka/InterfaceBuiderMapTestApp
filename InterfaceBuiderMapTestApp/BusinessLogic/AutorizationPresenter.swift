@@ -8,9 +8,7 @@
 
 import UIKit
 
-final class AutorizationPresenter: NSObject {
-    
-}
+final class AutorizationPresenter: NSObject {}
 
 extension AutorizationPresenter: UITextFieldDelegate {
     

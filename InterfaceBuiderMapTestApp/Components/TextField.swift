@@ -52,8 +52,8 @@ final class TextField: UITextField {
 private extension TextField {
     
     func setupEyeButton() {
-        let passwordEyeButton = UIButton(frame: CGRect(x: 0, y: 0, width: 16, height: 12))
-        passwordEyeButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: -20, bottom: 0, right: 0)
+        let passwordEyeButton = UIButton(frame: CGRect(x: 0, y: 0, width: 22, height: 17))
+        passwordEyeButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: -20, bottom: 10, right: 0)
         passwordEyeButton.addTarget(self, action: #selector(didHandleEyeButton(_:)), for: .touchUpInside)
         passwordEyeButton.setImage(#imageLiteral(resourceName: "Eye"), for: .normal)
         passwordEyeButton.alpha = 0.5
